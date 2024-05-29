@@ -1,6 +1,4 @@
-.bg-azul{
-background-color: rgb(32, 123, 227);
-}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -9,18 +7,26 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container-flex {
     flex: 1;
+    max-width: 600px;
 }
 
 footer {
-    background-color: #f8f9fa;
     text-align: center;
     padding: 1rem 0;
     width: 100%;
     position: relative;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .language-icons {
     display: flex;
@@ -47,6 +53,21 @@ footer {
     float: left;
     margin-right: 15px; /* Ajusta el margen derecho según sea necesario */
 }
+
+.card {
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
 .img-delfin {
-    max-width: 2050px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+.img-snake{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
 }

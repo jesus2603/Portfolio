@@ -12,9 +12,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <a class="navbar-brand" href="#">Galería</a>
-       <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-color">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +30,7 @@
                         <a class="nav-link" href="contactame.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobreMi.html">Conóceme</a>
+                        <a class="nav-link" href="sobreMi.html">Conóceme <span class="badge bg-primary">Nuevo</span></a>
                     </li>
                 </ul>
             </div>
@@ -40,28 +38,34 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container mt-5">
-        <h1>Galería de Proyectos</h1>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
+    <div class="container mt-5 bg-celeste">
+        <h1 class="text-center mb-4">Galería de Proyectos</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-12 mb-4">
+                <div class="card text-center">
                     <h5 class="card-title">Proyecto 1</h5>
-                    <img src="snake.png" alt="" class="img-conoceme">
-                    <p class="card-text">Esta tarea fue del segundo trimestre, fue hacer un videojuego simple y este fue el resultado. Hicimos el juego de Snake pero versionado. Fue una Snake en la feria de Sevilla, con 3 niveles y la música de sevillanas.</p>
-                    <a href="https://github.com/andreslopez00/Web-Juego.git" download>Ver proyecto en Git</a>
+                    <img src="snake.png" alt="Imagen del Proyecto 1" class="img-snake">
+                    <div class="card-body">
+                        <p class="card-text">Esta tarea fue del segundo trimestre, fue hacer un videojuego simple y este fue el resultado. Hicimos el juego de Snake pero versionado. Fue una Snake en la feria de Sevilla, con 3 niveles y la música de sevillanas.</p>
+                        <a href="https://github.com/andreslopez00/Web-Juego.git" class="btn btn-primary" download>Ver proyecto en Git</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
+            <div class="col-lg-12 mb-4">
+                <div class="card text-center">
                     <h5 class="card-title">Proyecto 2</h5>
-                    <img src="delfin.png" alt="" class="img-conoceme">
-                    <p class="card-text">Esta tarea era hacer una página web usando Bootstrap con la información sobre el animal que te tocase, en este caso me tocó el delfín.</p>
-                    <a href="https://github.com/jesus2603/Pagina_Web.git" download>Ver proyecto en Git</a>
+                    <img src="delfin.png" alt="Imagen del Proyecto 2" class="img-delfin">
+                    <div class="card-body">
+                        <p class="card-text">Esta tarea era hacer una página web usando Bootstrap con la información sobre el animal que te tocase, en este caso me tocó el delfín.</p>
+                        <a href="https://github.com/jesus2603/Pagina_Web.git" class="btn btn-primary" download>Ver proyecto en Git</a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start mt-4">
         <div class="container p-4">
             <p>© 2024 Mi Portfolio. Todos los derechos reservados.</p>
         </div>
