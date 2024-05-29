@@ -1,0 +1,52 @@
+.bg-azul{
+background-color: rgb(32, 123, 227);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-flex {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative;
+}
+.language-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+}
+.language-icons img {
+    width: 50px; /* Tamaño deseado para las imágenes */
+    height: auto;
+    margin: 5px; /* Espacio entre las imágenes */
+}
+.img-conoceme {
+    max-width: 300px;
+     float: left;
+    margin-right: 15px; /* Ajusta el margen derecho según sea necesario */
+}
+
+.image-text-container {
+    overflow: hidden; /* Evita que el texto flote debajo de la imagen */
+}
+
+.img-banda {
+    max-width: 100px;
+    float: left;
+    margin-right: 15px; /* Ajusta el margen derecho según sea necesario */
+}
+.img-delfin {
+    max-width: 2050px;
+}
