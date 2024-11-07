@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Conóceme</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-color">        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="curriculum.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactame.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobreMi.html">Conóceme <span class="badge bg-primary">Nuevo</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container mt-5 bg-celeste">
+        <h1>Conóceme</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Acerca de Mí</h5>
+                <img src="musica.jpg" alt="" class="img-banda">
+                <p>Una de mis grandes pasiones es la música. Como forma de desconexión, estoy en una banda de cornetas y tambores y toco la corneta. He tocado la trompeta y el fliscorno y la música para mi significa mucho porque es la manera más bonita para evadirme de los problemas y despejarme. La música me ha dado muchos conocimientos y sobretodo, constancia y el saber relacionarme y trabajar en grupo para llegar a un objetivo, cosa que he implementado muy bien en los estudios y trabajos.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <img src="futbol.jpg" alt="" class="img-conoceme">
+                <p>
+                    Como podéis ver en la foto, el deporte que practico es el fútbol. Me encanta jugar en equipo y mantenerme sano ya que en el mundo de la informática se pasa mucho tiempo sentado y es necesario buscar una alternativa para mantenerme en forma. Llevo practicamente toda mi vida realizando este deporte y lo practico solo los fines de semana intercalando los días entre semana que uso para salir a correr.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <img src="teatro.jpg" alt="" class="img-conoceme">
+                <p>
+                    Cuando tengo algún día libre, me encanta ir a los teatros a escuchar conciertos de música o a ver monólogos. Esta foto en concreto es del Gran Teatro Falla viendo la semifinal del concurso de los carnavales.
+                </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Más sobre mí
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Más sobre mí</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    En un futuro quiero dedicarme a la programación, ya que es lo que de verdad me llena y seguir formándome y actualizandome. En la programación es algo muy importante el seguir adquiriendo conocimientos y nunca quedarte atrás.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <p>© 2024 Mi Portfolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
